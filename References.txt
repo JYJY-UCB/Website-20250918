@@ -1,0 +1,2 @@
+Column sizing https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/#:~:text=To%20fix%20this%2C%20we%20can,contain%E2%80%9D%20and%20%E2%80%9Ccover%E2%80%9D.
+Footer behavior https://dev.to/robotspacefish/how-to-make-your-footer-stick-to-the-bottom-of-the-page-1im2

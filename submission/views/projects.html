@@ -1,0 +1,109 @@
+<!--The bootstrap 5.3 document was referenced for navbar and card group code-->
+<!---Gemini 2.5 flash prompt: Give me a barebones HTML structure for my personal website without adding any additional sections-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Website</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+            height: 100vh;
+        }
+
+        .project-image {
+            width: 50vh;
+            height: 30vh;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            Joe's Website
+            <a class="navbar-brand" href="./home.html">Home</a>
+            <a class="navbar-brand" href="./hobbies.html">Hobbies</a>
+            <a class="navbar-brand" href="./projects.html">Projects</a>
+            <div class="text-end">
+                <a class="navbar-brand" href="#">
+                    <img src="../resources/img/craiyon_103920_A_cartoonish_electron_density_map_of_a_small_enzyme_.png"
+                        alt="Bootstrap" width="8%" />
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-start">
+        <div class="row">
+            <div class="col-md-4 project-image">
+                <img src="../resources/img/ASO4-Blot-40s-Cropped.png"
+                    style="object-fit: cover; height: 100%; width: 100%;" />
+            </div>
+            <div class="col">
+                <h1 style="font-size: x-large;">STAT3 Therapeutic Testing</h1>
+                <p>In the Liu Lab, I am working as a research assistant in the STAT3 project, which involves
+                    testing cancer treatment options through the STAT3 oncoprotein. I use mammalian cell models and
+                    assays treatment effectiveness using cell viability assays and western blotting. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 project-image">
+                <img src="../resources/img/4PL.png" style="object-fit: cover; height: 100%; width: 100%;" />
+            </div>
+            <div class="col">
+                <h1 style="font-size: x-large;">R 4PL Automation</h1>
+                <p>In the Liu Lab, for processing dose-response date efficiently, I have been writing a R script to automate data import for spectrophotometer readings (and semi-automate for quantitative analysis of western blots), data modeling and graphing.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 project-image">
+                <img src="../resources/img/SCModuleTree.png" style="object-fit: cover; height: 100%; width: 100%;" />
+            </div>
+            <div class="col">
+                <h1 style="font-size: x-large;">MCDB SkillsCenter SOP Revisions</h1>
+                <p>In the MCDB SkillsCenter, I'm working on revising standard operating procedures to improve their
+                    clarity and have drafted descriptions for easier browsing. </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="py-0 m-2">
+        <!--This footer AI generated using Gemini 2.5 Flash, prompt: What's the problem with the following bootstrap html?
+
+    <footer class="py-0 my-1">
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-0 mt-1 border-top">
+
+            <a class="icon-link" href="">
+
+                <img src="../resources/img/Mail-Icon-White-on-Grey.svg" />
+
+            </a>
+
+        </div>
+
+    </footer>-->
+        <div class="py-2 d-flex justify-content-center align-items-center" style="background-color: lightgray;">
+            <a href="mailto:email@example.com">
+                <img src="../resources/img/Mail-Icon-White-on-Grey.svg" alt="Mail Icon" width="32" height="32" />
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

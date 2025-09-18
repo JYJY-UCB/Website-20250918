@@ -1,0 +1,114 @@
+<!--The bootstrap 5.3 document was referenced for navbar and card group code-->
+<!---Gemini 2.5 flash prompt: Give me a barebones HTML structure for my personal website without adding any additional sections-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Website</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /*The following ruleset from https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width*/
+        .card-img-top {
+            width: 100%;
+            height: 15vw;
+            object-fit: cover;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            Joe's Website
+            <a class="navbar-brand" href="./home.html">Home</a>
+            <a class="navbar-brand" href="./hobbies.html">Hobbies</a>
+            <a class="navbar-brand" href="./projects.html">Projects</a>
+            <div class="text-end">
+                <a class="navbar-brand" href="#">
+                    <img src="../resources/img/craiyon_103920_A_cartoonish_electron_density_map_of_a_small_enzyme_.png"
+                        alt="Bootstrap" width="8%" />
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main body-->
+    <div style="flex: 1;">
+        <div class="card-group my-4">
+            <div class="card">
+                <img src="../resources/img/RStudio.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Programming</h5>
+                    <p class="card-text">The potential of programming, including conventional and generative AI, is
+                        fascinating. I enjoy using programming to acheive exactly what I have in mind. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../resources/img/Groove_Music.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Music</h5>
+                    <p class="card-text">Music calms me down and wakes me up. Generally, I listen to Japanese, Chinese,
+                        or
+                        instrumental music.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../resources/img/Book.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Reading</h5>
+                    <p class="card-text">Reading primarily fantasy fiction, I typically lighter genres to relax.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../resources/img/璃月港.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gaming</h5>
+                    <p class="card-text">I play primarily games within the sandbox genre.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="py-0 m-2">
+        <!--This footer AI generated using Gemini 2.5 Flash, prompt: What's the problem with the following bootstrap html?
+
+    <footer class="py-0 my-1">
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-0 mt-1 border-top">
+
+            <a class="icon-link" href="">
+
+                <img src="../resources/img/Mail-Icon-White-on-Grey.svg" />
+
+            </a>
+
+        </div>
+
+    </footer>-->
+        <div class="py-2 d-flex justify-content-center align-items-center" style="background-color: lightgray;">
+            <a href="mailto:email@example.com">
+                <img src="../resources/img/Mail-Icon-White-on-Grey.svg" alt="Mail Icon" width="32" height="32" />
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
